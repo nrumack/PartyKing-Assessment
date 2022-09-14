@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="scripts.js" charset="utf-8" defer></script>
+	<script src="style.css"></script>
+	<link href="/dist/output.css" rel="stylesheet">
+	<title>PartyKing Assessment</title>
+</head>
+<body>
+	<div class="mx-auto max-w-7xl py-6 px-4 sm:px-6 lg:px-8">
+		<h1 class="text-3xl font-bold tracking-tight text-gray-900">PartyKing Assessment</h1>
+	</div>
+<div id="form" class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+		<div class="space-y-6 bg-white px-4 py-5 sm:p-6">
+				<div class="shadow sm:overflow-hidden sm:rounded-md">  
+					<label for="article" class="block text-sm font-medium text-gray-700">Search for an article</label>
+					<div class="mt-1">
+						<input type="text" name="articleNumber" id="articleNumber" placeholder="Please enter a number" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm sm:text-sm"/>
+						<div class="text-right sm:px-6">
+							<button type="submit" id="search" class="inline-flex justify-center rounded-md border bg-gray-600 py-2 px-4 text-sm font-medium text-white shadow-sm hover:bg-gray-700">Search</button>
+						</div>
+					</div>
+				</div>
+		</div>
+	
+		
+
+	
+	<button onclick="SendItem()"  type="submit" class="inline-flex justify-center rounded-md border border-transparent bg-gray-600 py-2 px-4 text-sm font-medium text-white shadow-sm hover:bg-gray-700">Does it fit?</button>
+	<div class="mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-32">
+      <h2 id="articleName" class="text-2xl font-bold text-gray-900"></h2>
+		<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+			<p id="demo"></p>
+		</div>
+  	</div>
+</div>
+</body>
+</html>
+
